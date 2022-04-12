@@ -82,3 +82,27 @@ Gambar di atas adalah hasil codingan yang dibawah yang Menggunakan Method dalam 
 </body>
 </html>
 ```
+
+### 4.Pemakaian Prompt
+![Menambahkan_Paragraf](pict/ss4.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang Menggunakan Prompt pada script.
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pemasukan data</title>
+</head>
+<body>
+    <script lang="javascript">
+        var nama = prompt("siapa nama anda?","masukkan nama anda");
+        document.write("hai, "+ nama);
+    </script>
+</body>
+</html>
+```
