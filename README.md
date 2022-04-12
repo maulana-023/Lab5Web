@@ -57,3 +57,28 @@ Gambar di atas adalah hasil codingan yang dibawah yang telah ditambahkan Pemakai
 </body>
 </html>
 ```
+
+### 3.Pemakaian Method Dalam Objek
+![Menambahkan_Paragraf](pict/ss3.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang Menggunakan Method dalam objek dengan javascript.
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skrip javascript</title>
+</head>
+<body>
+    percobaan memakai javascript:<br>
+    <script lang="javascript">
+        document.write("Selamat mencoba javascript<br>");
+        document.write("Semoga sukses!");
+    </script>
+</body>
+</html>
+```
