@@ -260,3 +260,38 @@ Gambar di atas adalah hasil codingan yang dibawah, Membuat form input dengan fun
 ```
 
 <hr>
+
+### 9.Form Input
+![Menambahkan_Paragraf](pict/ss9.png) 
+Gambar di atas adalah hasil codingan yang dibawah, Membuat form input dengan function javascript dan pengondisian if/else saya memilih angka 23 maka akan menjadi bilangan ganjil.
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form input</title>
+    <script lang="javascript">
+        function test () {
+            var val1=document.kirim.T1.value
+            if (val1%2==0)
+                document.kirim.T2.value="bilangan genap"
+            else
+                document.kirim.T2.value="bilangan ganjil"
+        }
+    </script>
+</head>
+<body>
+    <form action="" method="post" name="kirim">
+        <p>BIL <input type="text" name="T1" id="T1" size="20"> MERUPAKAN BIL <input type="text" name="T2" id="T2" size="20"></p>
+        <p><input type="button" value="TEBAK" name="B1" onclick=test()></p>
+    </form>
+</body>
+</html>
+```
+
+<hr>
