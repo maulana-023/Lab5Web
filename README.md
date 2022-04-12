@@ -333,3 +333,51 @@ Gambar di atas adalah hasil codingan yang dibawah yang telah menggunakan form bu
 </body>
 </html>
 ```
+
+<hr>
+
+## HTML DOM
+### 11.Pilihan menggunakan checkBox dengan perhitungan otomatis
+![Menambahkan_Paragraf](pict/ss11.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang menggunakan HTML DOM dengan input type checkbox sebagai contoh codingan di atas menghitung secara otomatis.
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
+```html
+<!DOCTYPE html>
+<!-- file daftar menu.html -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Menu</title>
+  <script lang="javascript">
+      function hitung(ele) {
+          var total = document.getElementById('total').value;
+              total = (total ? parseInt(total) : 0);
+          var harga = 0;
+          if (ele.checked) {
+              harga = ele.value;
+              total += parseInt(harga);
+          } else {
+              harga = ele.value;
+              if (total > 0)
+                  total -= parseInt(harga);
+          }
+          document.getElementById('total').value = total;
+      }
+  </script>
+</head>
+<body>
+  <h1>Daftar Menu Makanan</h1>
+  <label><input type="checkbox" value="5000" name="menu1" id="menu1" onclick="hitung(this);">Ayam Goreng Rp. 5.000</label><br>
+  <label><input type="checkbox" value="500" name="menu2" id="menu2" onclick="hitung(this);">Tempe Goreng Rp. 500</label><br>
+  <label><input type="checkbox" value="2500" name="menu3" id="menu3" onclick="hitung(this);">Telur Dadar Rp. 2.500</label><br>
+  <label><input type="checkbox" value="4000" name="menu4" id="menu4" onclick="hitung(this);">Es Teh Manis Rp. 4.000</label><hr>
+  <strong>Total Bayar: Rp. <input type="text" name="total" id="total"></strong>
+</body>
+</html>
+```
+
+<hr>
