@@ -34,3 +34,26 @@ Gambar di atas adalah hasil codingan yang dibawah.
 </body>
 </html>
 ```
+
+### 2.Pemakaian alert sebagai operasi window
+![Menambahkan_Paragraf](pict/ss2.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang telah ditambahkan Pemakaian alert sebagai property window dan akan muncul di atas halaman.
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>alert box</title>
+</head>
+<body>
+   <script lang="javascript">
+       window.alert("ini merupakan pesan untuk anda");
+   </script>
+</body>
+</html>
+```
