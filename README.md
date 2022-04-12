@@ -34,6 +34,7 @@ Gambar di atas adalah hasil codingan yang dibawah.
 </body>
 </html>
 ```
+<hr>
 
 ### 2.Pemakaian alert sebagai operasi window
 ![Menambahkan_Paragraf](pict/ss2.png) 
@@ -57,6 +58,7 @@ Gambar di atas adalah hasil codingan yang dibawah yang telah ditambahkan Pemakai
 </body>
 </html>
 ```
+<hr>
 
 ### 3.Pemakaian Method Dalam Objek
 ![Menambahkan_Paragraf](pict/ss3.png) 
@@ -82,6 +84,7 @@ Gambar di atas adalah hasil codingan yang dibawah yang Menggunakan Method dalam 
 </body>
 </html>
 ```
+<hr>
 
 ### 4.Pemakaian Prompt
 ![Menambahkan_Paragraf](pict/ss4.png) 
@@ -107,6 +110,7 @@ Gambar di atas adalah hasil codingan yang dibawah yang Menggunakan Prompt pada s
 </body>
 </html>
 ```
+<hr>
 
 ### 5.Pembuatan Fungsi Dan Cara Pemanggilannya
 ![Menambahkan_Paragraf](pict/ss5.png) 
@@ -130,6 +134,45 @@ Gambar di atas adalah hasil codingan yang dibawah.
 </head>
 <body onload=pesan()>
     
+</body>
+</html>
+```
+<hr>
+
+## Dasar Pemrograman di Javascript
+
+### 6.Operasi Dasar Aritmatika
+![Menambahkan_Paragraf](pict/ss6.png) 
+Gambar di atas adalah hasil codingan yang dibawah Operasi Dasar Artimatika dalam javascript.
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Program Javascript</title>
+    <script lang="javascript">
+        function test (val1,val2)
+        {
+            document.write("<br>"+"perkalian : val1*val2 "+"<br>")
+            document.write(val1*val2)
+            document.write("<br>"+"pembagian : val1/val2 "+"<br>")
+            document.write(val1/val2)
+            document.write("<br>"+"penjumlahan : val1+val2 "+"<br>")
+            document.write(val1+val2)
+            document.write("<br>"+"pengurangan : val1-val2 "+"<br>")
+            document.write(val1-val2)
+            document.write("<br>"+"modulus : val1%val2 "+"<br>")
+            document.write(val1%val2)
+        }
+    </script>
+</head>
+<body>
+    <input type="button" name="button1" value="arithmetic" onclick=test(9,4)>
 </body>
 </html>
 ```
