@@ -381,3 +381,56 @@ Gambar di atas adalah hasil codingan yang dibawah yang menggunakan HTML DOM deng
 ```
 
 <hr>
+
+## PERTANYAAN DAN TUGAS
+### 1.Buat script untuk melakukan validasi pada isian form.
+![Menambahkan_Paragraf](pict/ss12.png) 
+Gambar di atas adalah hasil codingan yang dibawah, Ini adalah contoh pembuatan form validasi menggunakan script atau javascript, ada beberapa syarat, jika data tidak diisi dengan lengkap maka akan ada prompt isikan alamat lengkap anda karena harus diisi dengan lengkap seperti contoh gambar di atas. 
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Validasi</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">
+        function validasiForm() {
+            var nama = document.getElementById("nama").value;
+            var email = document.getElementById("email").value;
+            var alamat = document.getElementById("alamat").value;
+            if (nama != "" && email != "" && alamat != "") {
+                return true;
+            } else {
+                alert('Isi Alamat Anda dengan lengkap !');
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+     <div class="login">
+        <h2>VALIDASI DATA ANDA</h2>
+        <form action="#" method="POST" onSubmit="return validasiForm()">
+            <div>
+                <label>Nama Lengkap:</label>
+                <input type="text" name="nama" id="nama" />
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email" id="email" />
+            </div>
+            <div>
+                <label>Alamat:</label>
+                <textarea cols="40" rows="5" name="alamat" id="alamat"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Daftar" class="tombol">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+```
+
