@@ -182,7 +182,7 @@ Gambar di atas adalah hasil codingan yang dibawah Operasi Dasar Artimatika dalam
 ### 7.Seleksi Kondisi (If/else)
 ![Menambahkan_Paragraf](pict/ss7.png) 
 ![Menambahkan_Paragraf](pict/ss7-.png) 
-Gambar di atas adalah hasil codingan yang dibawah yang menggunakan program seleksi bersyarat dari if else dimana jika jika nilainya lebih dari 60 berarti lulus dan yang lain jika dibawah 60 berarti tidak lulus, sedangkan saya memberikan nilai 98 yang berarti hasilnya adalah lulus
+Gambar di atas adalah hasil codingan yang dibawah yang menggunakan program seleksi bersyarat dari if else dimana jika nilainya lebih dari 60 berarti lulus dan jika dibawah 60 berarti tidak lulus, sedangkan saya memberikan nilai 98 yang berarti hasilnya adalah lulus.
 
 ### Dibawah ini Adalah Codingan Dari Gambar Diatas:
 
@@ -205,6 +205,56 @@ Gambar di atas adalah hasil codingan yang dibawah yang menggunakan program selek
         hasil = "tidak lulus";
         document.write("hasil: " + hasil);
     </script>
+</body>
+</html>
+```
+
+<hr>
+
+### 8.Penggunaan Operator switch untuk seleksi kondisi
+![Menambahkan_Paragraf](pict/ss8.png) 
+![Menambahkan_Paragraf](pict/ss8-.png) 
+Gambar di atas adalah hasil codingan yang dibawah, Membuat form input dengan function javascript dan pengondisian if/else seperti gambar di atas saya memilih angka 3 maka akan menjadi bilangan ganjil. Kegunaan operator switch untuk pemilihan kondisi, disini saya menulis program switch case sebagai pemilihan kondisi dengan memasukkan angka 3 sebagai angka pilihan maka outputnya akan keluar argumen bilanagan lainya.
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Program Javascript</title>
+    <script lang="javascript">
+        function test ()
+        {
+            val1=window.prompt("input nilai (1-5):")
+            switch (val1)
+            {
+                case "1" :
+                    document.write("bilangan satu")
+                    break
+                case "2" :
+                    document.write("bilangan dua")
+                    break
+                case "3" :
+                    document.write("bilangan tiga")
+                    break
+                case "4" :
+                    document.write("bilangan empat")
+                    break
+                case "5" :
+                    document.write("bilangan lima")
+                    break 
+                default  :
+                    document.write("bilangan lainnya")
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" name="button1" value="switch" onclick=test()>
 </body>
 </html>
 ```
