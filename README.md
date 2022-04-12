@@ -85,6 +85,7 @@ Gambar di atas adalah hasil codingan yang dibawah yang Menggunakan Method dalam 
 
 ### 4.Pemakaian Prompt
 ![Menambahkan_Paragraf](pict/ss4.png) 
+![Menambahkan_Paragraf](pict/ss4-.png) 
 Gambar di atas adalah hasil codingan yang dibawah yang Menggunakan Prompt pada script.
 
 ### Dibawah ini Adalah Codingan Dari Gambar Diatas:
@@ -103,6 +104,32 @@ Gambar di atas adalah hasil codingan yang dibawah yang Menggunakan Prompt pada s
         var nama = prompt("siapa nama anda?","masukkan nama anda");
         document.write("hai, "+ nama);
     </script>
+</body>
+</html>
+```
+
+### 5.Pembuatan Fungsi Dan Cara Pemanggilannya
+![Menambahkan_Paragraf](pict/ss5.png) 
+Gambar di atas adalah hasil codingan yang dibawah.
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Program javascript</title>
+    <script lang="javascript">
+        function pesan(){
+            alert ("Memanggil javascript lewat body onload")
+        }
+    </script>
+</head>
+<body onload=pesan()>
+    
 </body>
 </html>
 ```
