@@ -295,3 +295,41 @@ Gambar di atas adalah hasil codingan yang dibawah, Membuat form input dengan fun
 ```
 
 <hr>
+
+### 10.Form Button
+![Menambahkan_Paragraf](pict/ss10.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang telah menggunakan form button dengan function javascript dan html form button hasil nya adalah seperti contoh gambar di atas, saya memilih Latar Belakang Hijau dan teks kuning.
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objek Document</title>
+</head>
+<body>
+    <script lang="javascript">
+        function ubahWarnaLB(warna) {
+            document.bgColor = warna;
+        }
+        function ubahWarnaLD(warna) {
+            document.fgColor = warna;
+        }
+    </script>
+    <h1>Tes</h1>
+    <form action="">
+        <input type="button" value="Latar Belakang Hijau" onclick="ubahWarnaLB('GREEN')">
+        <input type="button" value="Latar Belakang Putih" onclick="ubahWarnaLB('WHITE')">
+        <input type="button" value="Teks Kuning" onclick="ubahWarnaLD('YELLOW')">
+        <input type="button" value="Teks Biru" onclick="ubahWarnaLD('BLUE')">
+    </form>
+    <script lang="javascript">
+        document.write("Dimodifikasi terakhir pada " + document.lastModified);
+    </script>
+</body>
+</html>
+```
