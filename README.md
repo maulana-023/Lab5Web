@@ -176,3 +176,37 @@ Gambar di atas adalah hasil codingan yang dibawah Operasi Dasar Artimatika dalam
 </body>
 </html>
 ```
+
+<hr>
+
+### 7.Seleksi Kondisi (If/else)
+![Menambahkan_Paragraf](pict/ss7.png) 
+![Menambahkan_Paragraf](pict/ss7-.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang menggunakan program seleksi bersyarat dari if else dimana jika jika nilainya lebih dari 60 berarti lulus dan yang lain jika dibawah 60 berarti tidak lulus, sedangkan saya memberikan nilai 98 yang berarti hasilnya adalah lulus
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh if-else</title>
+</head>
+<body>
+    <script lang="javascript">
+        var nilai = prompt("nilai (0-100): ", 0);
+        var hasil = "";
+        if (nilai >=60)
+        hasil = "lulus";
+        else
+        hasil = "tidak lulus";
+        document.write("hasil: " + hasil);
+    </script>
+</body>
+</html>
+```
+
+<hr>
